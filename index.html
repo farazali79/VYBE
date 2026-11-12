@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VYBE — Profile Studio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #090711;
+  color: white;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+  border-bottom: 1px solid #292237;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  color: #b88aff;
+}
+
+nav span {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.hero {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.tag {
+  color: #c69aff;
+  border: 1px solid #60418a;
+  padding: 9px 18px;
+  border-radius: 30px;
+  font-size: 12px;
+  margin-bottom: 28px;
+}
+
+h1 {
+  font-size: clamp(48px, 9vw, 90px);
+  line-height: 1.05;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: #b88aff;
+}
+
+.description {
+  color: #aaa3b8;
+  max-width: 500px;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+button {
+  background: linear-gradient(120deg,#a66aff,#7445ca);
+  border: none;
+  padding: 16px 30px;
+  border-radius: 12px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px #8b52d855;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #777;
+  font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">VYBE.</div>
+  <span>PROFILE INTELLIGENCE STUDIO</span>
+</nav>
+
+<main class="hero">
+  <div class="tag">✦ YOUR DIGITAL IDENTITY STUDIO</div>
+
+  <h1>Discover Your<br><span>Digital Vibe.</span></h1>
+
+  <p class="description">
+    Explore your profile aesthetic, discover creative styles
+    and understand your digital identity with VYBE.
+  </p>
+
+  <button onclick="alert('Welcome to VYBE! Profile studio coming soon.')">
+    Explore VYBE →
+  </button>
+</main>
+
+<footer>
+  VYBE © 2026 — Educational Profile Studio
+</footer>
+
+</body>
+</html>
